@@ -2,92 +2,130 @@
 <html lang="uk">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UAasterisms Privacy Policy</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;800&family=Golos+Text:wght@400;600&display=swap">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UAasterisms — Privacy Policy</title>
 <style>
-/* Layout: one narrow reading column, Ukrainian first, English below; night-sky accents from the game. */
-:root{
-  --bg:#F6F5F0; --fg:#1B1C26; --muted:#5B5E70; --rule:#D9D6CB; --accent:#2F3A8C; --star:#9A7414;
-  --display:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
-  --body:"Golos Text",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#07081A;--fg:#E9E8F2;--muted:#A3A6C2;--rule:#232858;--accent:#9DAAF5;--star:#FFE27A;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#07081A;--fg:#E9E8F2;--muted:#A3A6C2;--rule:#232858;--accent:#9DAAF5;--star:#FFE27A;color-scheme:dark}
-body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6;margin:0}
-main{max-width:680px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px;display:flex;flex-direction:column;gap:40px}
-header{display:flex;flex-direction:column;gap:8px}
-.mark{font-family:var(--display);font-weight:800;font-size:30px;letter-spacing:-.5px;margin:0}
-.mark span{color:var(--star)}
-.meta{font-family:var(--display);font-size:13px;color:var(--muted);letter-spacing:.04em}
-section{display:flex;flex-direction:column;gap:14px;border-top:1px solid var(--rule);padding-top:28px}
-h1{font-family:var(--display);font-size:20px;margin:0;color:var(--accent);text-wrap:balance}
-h2{font-size:17px;margin:8px 0 0;font-weight:600}
-p,ul{margin:0}
-ul{padding-left:20px;display:flex;flex-direction:column;gap:6px}
-.lead{font-size:19px;font-weight:600}
+  :root { --bg:#D9DDEE; --card:#F3F4FA; --ink:#15172E; --dim:#4E5272; --accent:#2F3A8C; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#04050F; --card:#0C0F2A; --ink:#E9E8F2; --dim:#A3A6C2; --accent:#FFD24A; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+  .card { background:var(--card); padding: 24px; border: 3px solid var(--accent); }
+  h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: .02em; }
+  h2 { font-size: 16px; margin: 28px 0 6px; color: var(--accent); text-transform: uppercase; letter-spacing: .05em; }
+  p, li { font-size: 14px; }
+  .meta { color: var(--dim); font-size: 13px; margin: 0 0 16px; }
+  .summary { border-left: 4px solid var(--accent); padding: 8px 12px; margin: 12px 0; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 2px dashed var(--dim); margin: 36px 0; }
+  nav a { margin-right: 12px; font-size: 13px; }
 </style>
-
 </head>
 <body>
 <main>
-  <header>
-    <p class="mark">UA<span>asterisms</span></p>
-    <p class="meta">Flying Aubergine · 20.10.2026</p>
-  </header>
+<div class="card">
+  <nav><a href="#ua">Українська</a><a href="#en">English</a></nav>
 
-  <section lang="uk">
-    <h1>Політика конфіденційності</h1>
-    <p class="lead">UAasterisms не збирає й не передає жодних персональних даних. Гра працює без інтернету.</p>
-    <h2>Що зберігається</h2>
-    <p>Прогрес гри, налаштування, збережений рейс «Чумацького шляху», назви ваших сузір'їв і результати «Задачі дня» зберігаються лише у пам'яті вашого пристрою. Ми їх не бачимо. Якщо видалити застосунок, ці дані зникнуть.</p>
-    <h2>Чого в застосунку немає</h2>
+  <section id="ua" lang="uk">
+    <h1>UAasterisms — Політика конфіденційності</h1>
+    <p class="meta">Розробниця: Flying Aubergine (Київ, Україна) · Чинна з 15 листопада 2026 року</p>
+
+    <p class="summary"><strong>Коротко:</strong> UAasterisms не збирає, не зберігає на серверах і не передає жодних ваших даних. У грі немає реклами, покупок, акаунтів чи аналітики, і вона працює без інтернету.</p>
+
+    <h2>Що зберігається на вашому пристрої</h2>
+    <p>Щоб ви не втрачали прогрес, гра зберігає у пам'яті самого застосунку на вашому телефоні:</p>
     <ul>
-      <li>облікових записів і входу;</li>
-      <li>реклами та рекламних ідентифікаторів;</li>
-      <li>аналітики, яка надсилає дані на сервер;</li>
-      <li>доступу до геолокації, камери, мікрофона, контактів чи файлів.</li>
+      <li>розгадані сузір'я, атлас і пройдені зоряні стежки;</li>
+      <li>назви, які ви дали своїм сузір'ям;</li>
+      <li>збережений рейс «Чумацького шляху» і результати «Задачі дня»;</li>
+      <li>знахідки й прогрес «Півня» в степу та в космосі;</li>
+      <li>ваші налаштування (мова, вигляд меню, нагадування тощо).</li>
     </ul>
-    <h2>Покупки</h2>
-    <p>Якщо в застосунку з'явиться покупка «Повний рейс», її повністю обробляє Google Play. Ми не отримуємо ваших платіжних даних, лише підтвердження, що покупку зроблено, щоб відкрити гру.</p>
+    <p>Ці дані нікуди не надсилаються. Вони зникнуть, якщо ви видалите застосунок або очистите його дані в налаштуваннях телефону.</p>
+
+    <h2>Чого гра не робить</h2>
+    <ul>
+      <li>не показує рекламу й не використовує рекламний ідентифікатор;</li>
+      <li>не має покупок у застосунку;</li>
+      <li>не просить реєстрації, імені, email чи інших персональних даних;</li>
+      <li>не використовує аналітику, трекери чи сторонні сервіси;</li>
+      <li>не просить доступу до геолокації, камери, мікрофона, контактів чи файлів;</li>
+      <li>не надсилає жодних запитів в інтернет: усі шрифти, зоряні дані й зображення вбудовані в застосунок.</li>
+    </ul>
+
+    <h2>Оновлення</h2>
+    <p>Під час запуску гра питає застосунок Google Play на вашому телефоні, чи вийшла нова версія. Якщо так, у грі з'являється пропозиція оновитися. Оновлення завантажує й встановлює Google Play за власними правилами; гра отримує лише відповідь, чи є нова версія.</p>
+
     <h2>Нагадування</h2>
-    <p>Якщо ви ввімкнете нагадування про «Задачу дня», телефон сам покаже сповіщення ввечері. Його планує ваш пристрій, без інтернету й без жодного сервера. Дозвіл на сповіщення можна вимкнути в налаштуваннях гри або Android будь-коли.</p>
+    <p>Якщо ви ввімкнете нагадування про «Задачу дня», сповіщення планує сам телефон, без інтернету й без жодного сервера. Його можна вимкнути в налаштуваннях гри або Android будь-коли.</p>
+
     <h2>Поділитися результатом</h2>
-    <p>Кнопка «Поділитися» відкриває стандартне меню Android. Що і куди надіслати, вирішуєте ви; застосунок нічого не надсилає сам.</p>
-    <h2>Посилання</h2>
-    <p>Посилання на джерела в розділі «Про гру» відкриваються у вашому браузері; на тих сайтах діють їхні власні правила.</p>
+    <p>Кнопка «Поділитися» відкриває стандартне меню Android. Що і куди надіслати, вирішуєте ви; гра нічого не надсилає сама.</p>
+
+    <h2>Зовнішні посилання</h2>
+    <p>Розділи «Про гру» і «Чумацький шлях» містять посилання на джерела: від сайтів NASA та ESA до статей про народну астрономію. Вони відкриваються у вашому браузері, і на них поширюються політики конфіденційності цих сайтів.</p>
+
     <h2>Діти</h2>
-    <p>Гра підходить для будь-якого віку й не збирає даних ні про кого, зокрема про дітей.</p>
-    <h2>Зміни й контакт</h2>
-    <p>Якщо ми додамо щось, що стосується даних, ми оновимо цю сторінку до виходу такої версії. Питання надсилайте на email розробника, вказаний на сторінці застосунку в Google Play.</p>
+    <p>Гра підходить для будь-якого віку і не збирає персональних даних ні від кого, зокрема від дітей.</p>
+
+    <h2>Зміни</h2>
+    <p>Якщо гра колись почне обробляти будь-які дані, ця сторінка буде оновлена до виходу такого оновлення.</p>
+
+    <h2>Контакт</h2>
+    <p>Питання щодо конфіденційності: <strong>uanonograms@gmail.com</strong></p>
   </section>
 
-  <section lang="en">
-    <h1>Privacy Policy</h1>
-    <p class="lead">UAasterisms does not collect or share any personal data. The game works offline.</p>
-    <h2>What is stored</h2>
-    <p>Game progress, settings, the saved Chumak Road trip, the names you give your constellations and your Daily challenge results are stored only on your device. We cannot see them. Uninstalling the app deletes them.</p>
-    <h2>What the app does not have</h2>
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>UAasterisms — Privacy Policy</h1>
+    <p class="meta">Developer: Flying Aubergine (Kyiv, Ukraine) · Effective 15 November 2026</p>
+
+    <p class="summary"><strong>In short:</strong> UAasterisms does not collect, store on servers or share any of your data. The game has no ads, no purchases, no accounts and no analytics, and it works offline.</p>
+
+    <h2>What is stored on your device</h2>
+    <p>So you don't lose your progress, the game keeps the following in the app's own storage on your phone:</p>
     <ul>
-      <li>accounts or sign-in;</li>
-      <li>ads or advertising identifiers;</li>
-      <li>analytics that send data to a server;</li>
-      <li>access to your location, camera, microphone, contacts or files.</li>
+      <li>solved constellations, your atlas and the star-hop paths you have walked;</li>
+      <li>the names you have given your constellations;</li>
+      <li>the saved Chumak Road trip and your Daily challenge results;</li>
+      <li>the Rooster's finds and progress on the steppe and in space;</li>
+      <li>your settings (language, menu style, reminders and so on).</li>
     </ul>
-    <h2>Purchases</h2>
-    <p>If the app offers the "Full journey" purchase, Google Play handles it entirely. We never receive your payment details, only a confirmation that the purchase was made, so the game can unlock.</p>
-    <h2>Reminders</h2>
-    <p>If you turn on the Daily challenge reminder, your phone shows a notification in the evening. It is scheduled on your device, with no internet connection and no server. You can turn it off in the game settings or in Android at any time.</p>
-    <h2>Sharing a result</h2>
-    <p>The Share button opens the standard Android share menu. You decide what to send and where; the app sends nothing on its own.</p>
-    <h2>Links</h2>
-    <p>Source links in "About" open in your browser, where those websites' own policies apply.</p>
-    <h2>Children</h2>
-    <p>The game is suitable for all ages and collects no data about anyone, children included.</p>
-    <h2>Changes and contact</h2>
-    <p>If we add anything that involves data, we will update this page before that version is released. Send questions to the developer email shown on the app's Google Play page.</p>
-  </section>
-</main>
+    <p>This data is never sent anywhere. It is removed if you uninstall the app or clear its data in your phone's settings.</p>
 
+    <h2>What the game does not do</h2>
+    <ul>
+      <li>no ads, and no use of the advertising ID;</li>
+      <li>no in-app purchases;</li>
+      <li>no sign-up, and no request for your name, email or any other personal data;</li>
+      <li>no analytics, trackers or third-party services;</li>
+      <li>no access to your location, camera, microphone, contacts or files;</li>
+      <li>no network requests at all: all fonts, star data and images are built into the app.</li>
+    </ul>
+
+    <h2>Updates</h2>
+    <p>When it starts, the game asks the Google Play app on your phone whether a new version is out. If there is one, the game offers to update. Google Play downloads and installs the update under its own terms; the game only learns whether a new version exists.</p>
+
+    <h2>Reminders</h2>
+    <p>If you turn on the Daily challenge reminder, the notification is scheduled by the phone itself, with no internet connection and no server. It can be turned off in the game settings or in Android at any time.</p>
+
+    <h2>Sharing a result</h2>
+    <p>The Share button opens the standard Android share menu. You decide what to send and where; the game sends nothing on its own.</p>
+
+    <h2>External links</h2>
+    <p>"About" and the Chumak Road link to sources, from NASA and ESA websites to articles on folk astronomy. These open in your browser and are covered by those sites' own privacy policies.</p>
+
+    <h2>Children</h2>
+    <p>The game is suitable for all ages and collects no personal data from anyone, including children.</p>
+
+    <h2>Changes</h2>
+    <p>If the game ever starts processing any data, this page will be updated before that version is released.</p>
+
+    <h2>Contact</h2>
+    <p>Privacy questions: <strong>uanonograms@gmail.com</strong></p>
+  </section>
+</div>
+</main>
 </body>
 </html>
